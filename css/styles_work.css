@@ -1,0 +1,497 @@
+
+
+body{
+    background-color: rgb(206, 210, 209);
+    list-style-type: none;
+
+}
+
+li{
+    list-style-type: none;
+
+}
+
+p{
+    font-family: Futura LT Pro;
+    font-weight: bold;
+}
+
+a{
+    font-family: Futura LT Pro;
+    font-weight: bold; 
+    text-decoration: none;
+    color: #000;
+}
+
+img{
+    margin-bottom: 16px;
+}
+
+/* ワーク------------------------------------------------------------ */
+
+/* header{
+    margin-bottom: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 100%;
+    border-bottom: 1px solid #ABABAB;
+} */
+
+/* .logo{
+    margin-left: 40px;
+} */
+
+
+/* .textboard {
+    color: #FFF;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 0 0 4px #FFF inset;
+    background-color: rgba(0,0,0,0.9);
+    margin-right: 40px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 16px 24px ;
+    font-family: Futura LT Pro;
+    font-weight: bold;
+  }
+   */
+
+/* .nav-about{
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 8px;
+
+} */
+
+/* .nav-work{
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+
+} */
+
+
+/* a{
+    display: block;
+} */
+
+header{
+    /* margin-bottom: 554px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 100%;
+    border-bottom: 1px solid #ABABAB;
+    background: #CED2D1;
+    position: fixed; /* ウィンドウを基準に画面に固定 */
+    top: 0; 
+    left: 0; /* 左右の固定位置を左から0pxにする */
+
+}
+
+.logo{
+    margin-left: 40px;
+}
+
+.logo-sp{
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    margin-bottom: 8px;
+
+}
+
+
+.textboard {
+    color: #FFF;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 0 0 4px #FFF inset;
+    background-color: rgba(0,0,0,0.9);
+    margin-right: 40px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 16px 24px ;
+    font-family: Futura LT Pro;
+    font-weight: bold;
+  }
+.nav-about{
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 8px;
+
+}
+
+.nav-work{
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+
+/* メインビジュアルー------------------------------------------------------------ */
+/* main{
+    margin: auto;
+    width: 80%;
+    max-width: 1100px;
+}
+
+.section-title{
+    font-size: 64px;
+    margin-bottom: 56px;
+    font-family: Futura LT Pro;
+}
+
+.main-frame{
+    width: 100%;
+    color: #FFF;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 0 0 4px #FFF inset;
+    background-color: rgba(0,0,0,0.9);
+    text-align: left;
+    margin-bottom: 263px;
+    margin-top: 560px;
+    
+
+  }
+
+.main-frame-text{
+    font-size: 32px;
+    padding-left: 32px;
+    padding-right: 171px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+} */
+
+
+
+
+/* ワーク------------------------------------------------------------ */
+
+
+.container {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 64px;
+    padding-top: 327px;
+
+  }
+
+.blog-container{
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 64px;
+}
+
+
+.section-title{
+    font-size: 64px;
+    /* margin-bottom: 32px; */
+    font-family: Futura LT Pro;
+    text-align: center;
+    font-weight: bold;
+}
+
+  .products ul {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .products li {
+    width: 100%;
+  }
+
+  .products li img {
+    width: 100%;
+  }
+
+
+.work-content{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.work-title{
+      font-size: 20px;
+      text-decoration: none;
+      font-family: Futura LT Pro;
+      font-weight: bold;
+}
+
+.sub-title{
+    font-size: 14px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    font-family: Futura LT Pro;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 4px;
+
+}
+
+
+
+
+  
+
+h2{
+    text-align: center;
+}
+
+/* p{
+    text-align: center;
+    margin-top: 4px;
+} */
+
+
+
+
+
+.Section-title{
+    text-align: center;
+    background-color: cornflowerblue;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Works-container{
+    display: flex;
+    margin-right: auto;
+    margin-left:auto;
+    width: 100%;
+    justify-content: space-between;
+    background-color: red;
+    flex-wrap: wrap;
+}
+
+
+.Content{
+    margin-bottom: 24px;
+}
+
+.Content-picture{
+    width: 424px;
+    height: 240px;
+}
+
+
+
+.Content-description h2 {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.Content-description p {
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+
+.footer-container{
+    text-align: center;
+    border-top: 1px solid #ABABAB;
+    width: 100%;
+    padding: 32px 0px;
+}
+
+.footer-text{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+@media (min-width: 600px) {
+    /* body {
+      background: skyblue;
+    } */
+  
+    .container {
+      width: calc(100% - 32px);
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 1200px;
+      margin-bottom: 64px;
+      padding-top: 164px;
+
+    }
+
+    .blog-container{
+        width: calc(100% - 32px);
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1200px;
+        margin-bottom: 64px;
+        /* padding-top: 164px; */
+    }
+
+
+
+    .products ul {
+        margin-top: 32px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+      }
+    
+    .products li {
+        width: calc((100% - 16px) / 2);
+    }
+
+    
+}
+
+@media (max-width: 600px) {
+    /* body{
+        background-color: rgb(157, 157, 236);
+    } */
+
+    .section-title{
+        font-size: 24px;
+    }
+
+    .container{
+      margin-right: 16px;
+      margin-left: 16px;
+      margin-bottom: 64px;
+      padding-top: 133px;
+
+    }
+
+    header nav{
+        display: none;
+    }
+}
+
+@media (min-width: 1000px) {
+    /* body{
+        background: red;
+    } */
+    .products li {
+      width: calc((100% - 32px) / 3);
+    }
+  }
+
+
+  /* レスポンシブ　PC------------------------------------------------------------ */
+@media (min-width: 700px) {
+    .body{
+        background: #000;
+    }
+
+    .logo-sp{
+        display: none;
+    }
+
+    #textboard-sp{
+        display: none;
+    }
+
+    .nav-container-sp{
+        display: none;
+    }
+    
+  }
+
+
+
+/* レスポンシブ　スマホ------------------------------------------------------------ */
+@media screen and (min-width:100px) and (max-width:700px){
+    
+    header{
+        display:flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        border-bottom: 1px solid #ABABAB;
+    }
+
+    .logo{
+        margin-left: 16px;
+        padding-top: 44px;
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    #mask{
+        background: rgba(255, 255, 255, 0);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;    
+    }
+
+    #mask.hidden {
+        display: none;
+        }
+
+    .nav-container-sp{
+        display: flex;
+    }
+
+    .nav-button{
+        display: flex;
+        margin-left: 4px;
+    }
+
+    .nav-about-sp{
+        text-decoration: none;
+        color: #000;
+        margin-left: 4px;
+        font-family: Futura LT Pro;
+        font-weight: bold;
+
+    }
+
+    .logo-pc{
+        display: none;
+    }
+
+
+    .textboard{
+        display: none;
+    }
+
+    #textboard-sp{
+        color: #FFF;
+        border: 2px solid #000;
+        border-radius: 5px;
+        box-shadow: 0 0 0 4px #FFF inset;
+        background-color: rgba(0,0,0,0.9);
+        margin-left: 16px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        padding: 16px 24px ;
+        font-family: Futura LT Pro;
+        font-weight: bold;
+        position: absolute;
+        top: 100px;
+        left: 124px;
+        z-index: 4;
+
+    }
+
+    #textboard-sp.hidden{
+        display: none;
+    }
+
+}
