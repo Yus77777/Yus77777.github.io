@@ -1,0 +1,517 @@
+body{
+    background-color: rgb(206, 210, 209);
+    list-style-type: none;
+
+}
+
+li{
+    list-style-type: none;
+
+}
+
+p{
+    font-family: Futura LT Pro;
+    /* font-weight: bold; */
+
+}
+
+a{
+    font-family: Futura LT Pro;
+    font-weight: bold; 
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+}
+
+iframe{
+    width: 100%;
+    height: 600px;
+    margin-bottom: 80px;
+}
+
+.mokuji{
+    color: #000;
+}
+
+.koumoku{
+    color: #000;
+}
+
+#toc div{
+    color: #FFF;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 0 0 4px #FFF inset;
+    background-color: #19171D;
+    margin-right: 40px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 16px 24px ;
+    font-family: Futura LT Pro;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+#toc ul{
+    /* color: #FFF; */
+    /* border: 2px solid #000; */
+    /* border-radius: 5px; */
+    /* box-shadow: 0 0 0 4px #FFF inset; */
+    /* background-color: #19171D; */
+    /* margin-right: 40px;
+    display: flex;
+    flex-flow: column; */
+    /* justify-content: center; */
+    padding: 8px 24px ;
+    /* font-family: Futura LT Pro; */
+    /* font-weight: bold; */
+}
+
+
+#toc li{
+    list-style: disc;
+    /* color: #FFF; */
+    /* border: 2px solid #000; */
+    /* border-radius: 5px; */
+    /* box-shadow: 0 0 0 4px #FFF inset; */
+    /* background-color: #19171D; */
+    /* margin-right: 40px;
+    display: flex;
+    flex-flow: column; */
+    /* justify-content: center; */
+    /* padding: 8px 24px ; */
+    /* font-family: Futura LT Pro; */
+    /* font-weight: bold; */
+}
+
+
+#toc a{
+    color: rgb(255, 255, 255);
+}
+
+/* .iframe-wrap {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    overflow:auto; 
+    -webkit-overflow-scrolling:touch;
+    border:2px solid #ccc; 
+  }
+  .iframe-wrap iframe {
+      position:absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      border:none;
+      display:block;
+      z-index: -1;
+  } */
+
+
+
+/* img{
+    margin-bottom: 16px;
+} */
+
+.ContentsImg{
+    display: block;
+    margin-bottom: 48px;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: brown; */
+    width: 90%;
+    max-width: 700px;
+
+}
+
+.ThumbnailImg{
+    width: 100%;
+    margin-top: 125px;
+}
+
+.ref{
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.work-content img:hover{
+    opacity: 0.7;
+}
+
+
+
+header{
+    /* margin-bottom: 554px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 100%;
+    border-bottom: 1px solid #ABABAB;
+    background: #CED2D1;
+    position: fixed; /* ウィンドウを基準に画面に固定 */
+    top: 0; 
+    left: 0; /* 左右の固定位置を左から0pxにする */
+
+}
+
+.logo{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img{
+    margin-bottom: 0px;
+
+}
+
+.logo-pc{
+    margin-left: 4px;
+
+}
+
+.logo-sp{
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    /* margin-bottom: 8px; */
+    margin-left: 4px;
+
+}
+
+
+.textboard {
+    color: #FFF;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 0 0 4px #FFF inset;
+    background-color: #19171D;
+    margin-right: 40px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 16px 24px ;
+    font-family: Futura LT Pro;
+    font-weight: bold;
+  }
+.nav-about{
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 8px;
+
+}
+
+.nav-work{
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+
+/* ワーク------------------------------------------------------------ */
+
+
+.container {
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-bottom: 64px;
+    padding-top: 32px;
+    /* background-color: aqua; */
+
+  }
+
+
+  .DulationContainer{
+    color: #FFF;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 0 0 4px #FFF inset;
+    background-color: #19171D;
+    /* margin-right: 40px; */
+    justify-content: center;
+    padding: 16px 24px ;
+    font-family: Futura LT Pro;
+    font-weight: bold;
+    margin-bottom: 24px;
+  }
+
+
+  .dulation{
+      margin-bottom: 8px;
+  }
+
+  .TabeleOfContents{
+    color: #FFF;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 0 0 4px #FFF inset;
+    background-color: #19171D;
+    /* margin-right: 40px; */
+    display: flex;
+    /* justify-content: center; */
+    padding: 16px 24px ;
+    font-family: Futura LT Pro;
+    font-weight: bold;
+    margin-bottom: 24px;
+  }
+
+  .tool{
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+  }
+
+  .Proto-button{
+    color: #FFF;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 0 0 4px #FFF inset;
+    background-color: #19171D;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px 40px ;
+    font-family: Futura LT Pro;
+    font-weight: bold;
+    margin-bottom: 24px;
+    width: 30%;
+  }
+
+.Discription{
+    margin-bottom: 96px;
+    color: rgb(0, 0, 0);
+}
+
+.SectionTitle{
+    font-size: 40px;
+    /* margin-bottom: 32px; */
+    font-family: Futura LT Pro;
+    text-align: lefft;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(75, 75, 75);
+    margin-bottom: 24px;
+}
+
+.SubDiscription{
+    margin-bottom: 64px;
+}
+
+h2.SubTitle{
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+h3.FunctionDescription{
+    font-size: 24px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+
+
+ 
+/* フッター------------------------------------------------------------ */
+footer{
+    text-align: center;
+}
+
+
+.footer-container{
+    text-align: center;
+    border-top: 1px solid #ABABAB;
+    width: 100%;
+    padding: 32px 0px;
+}
+
+.footer-text{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+@media (min-width: 600px) {
+    /* body {
+      background: skyblue;
+    } */
+  
+    .container {
+      width: calc(100% - 32px);
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 1200px;
+      margin-bottom: 64px;
+      padding-top: 164px;
+
+    }
+
+    .blog-container{
+        width: calc(100% - 32px);
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1200px;
+        margin-bottom: 64px;
+        /* padding-top: 164px; */
+    }
+
+
+
+    .products ul {
+        margin-top: 32px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+      }
+    
+    .products li {
+        width: calc((100% - 16px) / 2);
+    }
+
+    
+}
+
+@media (max-width: 600px) {
+    /* body{
+        background-color: rgb(157, 157, 236);
+    } */
+
+    .section-title{
+        font-size: 24px;
+    }
+
+    .container{
+      margin-right: 16px;
+      margin-left: 16px;
+      margin-bottom: 64px;
+      padding-top: 133px;
+
+    }
+
+    header nav{
+        display: none;
+    }
+}
+
+@media (min-width: 1000px) {
+    /* body{
+        background: red;
+    } */
+    .products li {
+      width: calc((100% - 32px) / 3);
+    }
+  }
+
+
+  /* レスポンシブ　PC------------------------------------------------------------ */
+@media (min-width: 700px) {
+    .body{
+        background: #000;
+    }
+
+    .logo-sp{
+        display: none;
+    }
+
+    #textboard-sp{
+        display: none;
+    }
+
+    .nav-container-sp{
+        display: none;
+    }
+    
+  }
+
+
+
+/* レスポンシブ　スマホ------------------------------------------------------------ */
+@media screen and (min-width:100px) and (max-width:700px){
+    
+    header{
+        display:flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        border-bottom: 1px solid #ABABAB;
+    }
+
+    .logo{
+        margin-left: 16px;
+        padding-top: 44px;
+        font-size: 14px;
+        /* margin-bottom: 8px; */
+        display: flex;
+        align-items: center;
+
+    }
+    #mask{
+        background: rgba(255, 255, 255, 0);
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;    
+    }
+
+    #mask.hidden {
+        display: none;
+        }
+
+    .nav-container-sp{
+        display: flex;
+    }
+
+    .nav-button{
+        display: flex;
+        margin-left: 4px;
+    }
+
+    .nav-about-sp{
+        text-decoration: none;
+        color: #000;
+        margin-left: 4px;
+        font-family: Futura LT Pro;
+        font-weight: bold;
+
+    }
+
+    .logo-pc{
+        display: none;
+    }
+
+
+    .textboard{
+        display: none;
+    }
+
+    #textboard-sp{
+        color: #FFF;
+        border: 2px solid #000;
+        border-radius: 5px;
+        box-shadow: 0 0 0 4px #FFF inset;
+        background-color: #19171D;
+        margin-left: 16px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        padding: 16px 24px ;
+        font-family: Futura LT Pro;
+        font-weight: bold;
+        position: absolute;
+        top: 100px;
+        left: 124px;
+        z-index: 4;
+
+    }
+
+    #textboard-sp.hidden{
+        display: none;
+    }
+
+}
