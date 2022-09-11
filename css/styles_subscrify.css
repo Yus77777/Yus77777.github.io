@@ -11,7 +11,7 @@ li{
 
 p{
     font-family: Futura LT Pro;
-    /* font-weight: bold; */
+    font-weight: 500;
 
 }
 
@@ -30,7 +30,11 @@ iframe{
 }
 
 .mokuji{
-    color: #000;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 8px;
+    font-weight: bold;
 }
 
 .koumoku{
@@ -42,8 +46,8 @@ iframe{
     border: 2px solid #000;
     border-radius: 5px;
     box-shadow: 0 0 0 4px #FFF inset;
-    background-color: #19171D;
-    margin-right: 40px;
+    background-color: #1D1D21;
+    /* margin-right: 40px; */
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -64,6 +68,7 @@ iframe{
     flex-flow: column; */
     /* justify-content: center; */
     padding: 8px 24px ;
+    display: block;
     /* font-family: Futura LT Pro; */
     /* font-weight: bold; */
 }
@@ -133,8 +138,10 @@ iframe{
 }
 
 .ref{
-    margin-bottom: 32px;
+    margin-bottom: 40px;
     text-align: center;
+    color: #00000088;
+    cursor: pointer;
 }
 
 .work-content img:hover{
@@ -172,6 +179,8 @@ header{
 
 .logo-pc{
     margin-left: 4px;
+    font-family: Futura LT Pro;
+    font-weight: bold;
 
 }
 
@@ -181,6 +190,8 @@ header{
     text-decoration: none;
     /* margin-bottom: 8px; */
     margin-left: 4px;
+    font-family: Futura LT Pro;
+    font-weight: bold;
 
 }
 
@@ -190,7 +201,7 @@ header{
     border: 2px solid #000;
     border-radius: 5px;
     box-shadow: 0 0 0 4px #FFF inset;
-    background-color: #19171D;
+    background-color: #1D1D21;
     margin-right: 40px;
     display: flex;
     flex-flow: column;
@@ -227,6 +238,15 @@ header{
 
   }
 
+  .ProtoText{
+      font-size: 24px;
+      margin-bottom: 8px;
+  }
+
+.OverviewDiscription{
+    margin-bottom: 16px;
+}
+
 
   .DulationContainer{
     color: #FFF;
@@ -239,7 +259,7 @@ header{
     padding: 16px 24px ;
     font-family: Futura LT Pro;
     font-weight: bold;
-    margin-bottom: 24px;
+    margin-bottom: 80px;
   }
 
 
@@ -304,7 +324,7 @@ header{
     margin-bottom: 64px;
 }
 
-h2.SubTitle{
+.SubTitle{
     font-size: 32px;
     margin-bottom: 8px;
 }
@@ -312,9 +332,12 @@ h2.SubTitle{
 h3.FunctionDescription{
     font-size: 24px;
     margin-bottom: 8px;
-    margin-top: 8px;
+    /* margin-top: 8px; */
 }
 
+.thoughts{
+    margin-bottom: 8px;
+}
 
 
  
@@ -483,6 +506,7 @@ footer{
 
     .logo-pc{
         display: none;
+        
     }
 
 

@@ -29,7 +29,14 @@ header{
 
 .logo{
     margin-left: 40px;
+    display: flex;
+    align-items: center;
 }
+
+.logo-pc{
+    margin-left: 4px;
+}
+
 
 
 
@@ -86,6 +93,24 @@ main{
     font-family: Futura LT Pro;
 }
 
+.key-frame{
+    margin-top: 218px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.key{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+    
+}
+
+
 .main-frame{
     width: 100%;
     color: #FFF;
@@ -95,10 +120,18 @@ main{
     background-color: #19171D;
     text-align: left;
     margin-bottom: 263px;
-    margin-top: 560px;
-    
-
+    /* margin-top: 560px; */
   }
+
+.main-pic-container{
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top: 560px;
+    justify-content: center;
+}
+
+
+
 
 .main-frame-text{
     font-size: 32px;
@@ -295,6 +328,7 @@ li{
 }
 
 .logo-sp{
+    margin-left: 4px;
 }
 
 
@@ -345,6 +379,13 @@ li{
         left: 0;    
     }
 
+
+    .key{
+        width: 240px;
+        height: 74px;
+        
+    }
+
     #mask.hidden {
         display: none;
         }
@@ -381,7 +422,7 @@ li{
         border: 2px solid #000;
         border-radius: 5px;
         box-shadow: 0 0 0 4px #FFF inset;
-        background-color: rgba(0,0,0,0.9);
+        background-color: #19171D;
         margin-left: 16px;
         display: flex;
         flex-flow: column;

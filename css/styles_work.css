@@ -105,13 +105,26 @@ header{
 
 .logo{
     margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img{
+    margin-bottom: 0px;
+
+}
+
+.logo-pc{
+    margin-left: 4px;
+
 }
 
 .logo-sp{
     text-align: center;
     color: #000;
     text-decoration: none;
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
+    margin-left: 4px;
 
 }
 
@@ -435,7 +448,10 @@ footer{
         margin-left: 16px;
         padding-top: 44px;
         font-size: 14px;
-        margin-bottom: 8px;
+        /* margin-bottom: 8px; */
+        display: flex;
+        align-items: center;
+
     }
     #mask{
         background: rgba(255, 255, 255, 0);
