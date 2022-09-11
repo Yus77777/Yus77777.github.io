@@ -205,6 +205,10 @@ header{
     margin-right: 16px;
     margin-bottom: 64px;
     padding-top: 327px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+    min-height: 100vh;
 
   }
 
@@ -323,7 +327,7 @@ h2{
 }
 
 footer{
-    text-align: center;
+    text-align: center;    
 }
 
 
@@ -351,7 +355,6 @@ footer{
       max-width: 1200px;
       margin-bottom: 64px;
       padding-top: 164px;
-
     }
 
     .blog-container{
