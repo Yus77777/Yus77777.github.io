@@ -48,11 +48,14 @@
             <!-- <div id = "mokuji" class="mokuji">
                 <p>もくじ</p>
             </div> -->
-            <div id="toc"　class="mokuji">目次</div>
+            <P class="ProtoText">先に最終的なUIデザインを確認したい方は下記からご確認ください!!</P>
+            <div class="iframe-wrap">
+                <iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FUfsuDBvgcQNAhqbQxQLM8o%2FSubscrify%3Fpage-id%3D433%253A2832%26node-id%3D463%253A3340%26viewport%3D708%252C243%252C0.05%26scaling%3Dscale-down%26starting-point-node-id%3D463%253A3340%26show-proto-sidebar%3D1" frameboader="0"></iframe>
+            </div>
 
-            <!-- <div class="iframe-wrap">
-                　<iframe src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FUfsuDBvgcQNAhqbQxQLM8o%2FSubscrify%3Fpage-id%3D433%253A2832%26node-id%3D463%253A3340%26viewport%3D708%252C243%252C0.05%26scaling%3Dscale-down%26starting-point-node-id%3D463%253A3340%26show-proto-sidebar%3D1" frameboader="0"></iframe>
-            </div> -->
+            <div class="mokuji">目次</div>
+            <div id="toc"　class="mokuji"></div>
+
             <!-- <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FUfsuDBvgcQNAhqbQxQLM8o%2FSubscrify%3Fpage-id%3D433%253A2832%26node-id%3D463%253A3340%26viewport%3D708%252C243%252C0.05%26scaling%3Dscale-down%26starting-point-node-id%3D463%253A3340%26show-proto-sidebar%3D1" allowfullscreen></iframe> -->
             <div class="DulationContainer">
                 <div class="dulation">
@@ -65,27 +68,12 @@
                 <div class="tools">
                     <p>使用ツール</p>
                     <ul class="tool">
-                        <li>・Figma</li>
-                        <li>・GoogleForm</li>
-                        <li>・Twitter</li>
-                        <li>・Illustrator</li>
+                        <li>Figma</li>
+                        <li>GoogleForm</li>
+                        <li>Twitter</li>
+                        <li>Illustrator</li>
                     </ul>
                 </div>
-            </div>
-
-            
-            <div class="TabeleOfContents">
-                <ul>
-                    <li>アプリ</li>
-                    <li>WEBデザイン
-                    <ol>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    </ol>
-                    </li>
-                    <li>イラスト</li>
-                </ul>
             </div>
 
             <!-- <div class="Proto-button">
@@ -95,8 +83,7 @@
             <div class="Discription">
                 <h1 class="SectionTitle">OVERVIEW</h1>
                 <div class="SubDiscription">
-                    <h2　class="SubTitle">制作背景</h2>
-                    <h3　class="SubTitle">seisaku</h3>
+                    <h2 class="SubTitle">制作背景</h2>
                     <P>サブスク型のサービスの市場は年々増加傾向になっており(下図参照)、
                         一人辺りが契約しているサービスの数が増えていくことが考えられます。
                         それにより、ユーザー側で使用しているサービスの管理・把握(値段や契約数)が
@@ -111,10 +98,23 @@
             </div>
 
 
+            <!-- <div class="Discription">
+                <h1 class="SectionTitle">OVERVIEW</h1>
+                <div class="SubDiscription">
+                    <h2　class="SubTitle">制作背景</h2>
+                    <P>サブスク型のサービスの市場は年々増加傾向になっており(下図参照)、
+                        一人辺りが契約しているサービスの数が増えていくことが考えられます。
+                        それにより、ユーザー側で使用しているサービスの管理・把握(値段や契約数)が
+                        困難になるのではないかと考えられます。</P>
+                </div>
+            </div> -->
+
+
+
             <div class="Discription">
                 <h1 class="SectionTitle">UNDERSTANAD</h1>
                 <div class="SubDiscription">
-                    <h2　class="SubTitle">問題提起</h2>
+                    <h2 class="SubTitle">問題提起</h2>
                     <P>二次調査の結果(上図参照)より、使用頻度が低いのにもかかわら契約を継続している層が44%と、過半数を占めていることがわかりました。こういった利用者が多い理由として、継続かキャンセルかを決める時に判断材料が足りず、キャンセルまで至らないということが大きな要因となっていると仮設を立てました。また、サブスク管理のサービスは、市場にもそう多くなく企業の事業レベルで取り組んでいる会社が少ないという背景も相まって、サブスクリプションサービスにおける契約の継続判断の難易度は、今後根深い問題になってくると考えられます。</P>
                     <img src="img/subscrify/サブスク課題感.svg"  class="ContentsImg">
                     <p>上記の課題を基に下記のニーズが考えられました。
@@ -127,7 +127,7 @@
             <div class="Discription">
                 <h1 class="SectionTitle">IDEATION</h1>
                 <div class="SubDiscription">
-                    <h2　class="SubTitle">コンセプト</h2>
+                    <h2 class="SubTitle">コンセプト</h2>
 
                     <P>現状の課題・ニーズを基に、解決策(仮説)の検討を行いました。ユーザーがサブスク継続判断を用意に行う事と、
                         自動更新を待つだけでなくユーザーがサービスの使用価値を考える仕組みを提供するために、契約サービスの合計金額の管理と、
@@ -135,7 +135,7 @@
                         ユーザーがどれだけサービスを使用しているかなどの費やした時間の客観的なデータがあれば、現状抱えている課題を解決できるのではないかと考えました。</P>
                     <img src="img/subscrify/コンセプト.svg"  class="ContentsImg">
 
-                    <h2　class="SubTitle">ユーザー像</h2>
+                    <h2 class="SubTitle">ユーザー像</h2>
                     <p>これらの解決策(仮説)の価値検証としてプロトタイプを行うために、想定ユーザー像も定義しました。</p>
                     <img src="img/subscrify/ユーザー像.svg"  class="ContentsImg">
 
@@ -146,7 +146,7 @@
             <div class="Discription">
                 <h1 class="SectionTitle">PROTOTYPE</h1>
                 <div class="SubDiscription">
-                    <h2　class="SubTitle">ラフスケッチ</h2>
+                    <h2 class="SubTitle">ラフスケッチ</h2>
 
                     <P>プロトタイプ作成のためにラフデザインから作成しました。
                         最初にボトムナビゲーションの検討を行い、
@@ -155,21 +155,21 @@
                         サブスク一覧や合計時間や使用頻度の確認の際にカテゴリー毎にフィルタリングして可視化できるデザインにしました。</P>
                     <img src="img/subscrify/ワイヤーフレーム.png"  class="ContentsImg">
 
-                    <h2　class="SubTitle">Hifiプロトタイプ</h2>
+                    <h2 class="SubTitle">Hifiプロトタイプ</h2>
                     <p>検証時に、わかりやすいようにHifiプロトタイプを作成しました。
                         この段階でHifiプロトタイプを作成した理由としては、
                         今回のアイデアはカテゴリー毎にカラーを設定することで、
                         グラフの視認性などをわかりやすくしているため、プロトタイピングでもこのアイデアでわかりやすいかなども検証を行っています。</p>
                     <img src="img/subscrify/Hifiプロトタイプ.svg"  class="ContentsImg">
 
-                    <h2　class="SubTitle">プロトタイプ検証内容・目的</h2>
+                    <h2 class="SubTitle">プロトタイプ検証内容・目的</h2>
                     <p>現時点での解決策の妥当性を検証するために、プロトタイピングを二名の方に協力していただき実施しました。
                         目的としては、今回デザインした合計金額と使用頻度の可視化でサービス継続の判断することができるかどうかを中心に検証を行いました。</p>
                     <img src="img/subscrify/プロトタイプ目的.svg"  class="ContentsImg">
                     <img src="img/subscrify/プロトタイプ検証結果.svg"  class="ContentsImg">
                     
 
-                    <h2　class="SubTitle">アンケート・インタビューを通して見えてきた課題</h2>
+                    <h2 class="SubTitle">アンケート・インタビューを通して見えてきた課題</h2>
                     <p>ユーザーの課題とニーズを探るために現状で困っていることに関してもインタビューを行いました。現状の課題としては、
                         解約することを忘れているということが多いことがわかりました。サービスの数は概ね認識していて支払いに対しても明細などでしっかり認識しています。
                         それでも解約を忘れてしまう理由を深堀りしたたところ、解約手順の複雑さが大きな要因であることがわかりました。多くのユーザーは解約方法がわからず、
@@ -183,7 +183,7 @@
             <div class="Discription">
                 <h1 class="SectionTitle">DEEPLY UNDERSTAND</h1>
                 <div class="SubDiscription">
-                    <h2　class="SubTitle">アンケート・インタビューの実施</h2>
+                    <h2 class="SubTitle">アンケート・インタビューの実施</h2>
                     <P>仮説検証を経て、合計金額・使用頻度の可視化はキャンセル判断の材料として機能するということが確認できたので、
                         よりリアルなユーザーの課題を理解するためにアンケートとインタビューを行いました。
                         対象はTwitter上でサブスク管理に関して困っているユーザーや
@@ -191,7 +191,7 @@
                     <img src="img/subscrify/アンケート目的.svg"  class="ContentsImg">
                     <img src="img/subscrify/アンケート結果.svg"  class="ContentsImg">
 
-                    <h2　class="SubTitle">アンケート・インタビューを通して見えてきた課題</h2>
+                    <h2 class="SubTitle">アンケート・インタビューを通して見えてきた課題</h2>
                     <P>ユーザーの課題とニーズを探るために現状で困っていることに関してもインタビューを行いました。
                         現状の課題としては、解約することを忘れているということが多いことがわかりました。
                         サービスの数は概ね認識していて支払いに対しても明細などでしっかり認識しています。
@@ -200,7 +200,7 @@
                         解約するという行為を忘れてしまうというインサイトを得ることができました。</P>
                         <img src="img/subscrify/ユーザーインタビュー後の課題.svg"  class="ContentsImg">
 
-                    <h2　class="SubTitle">課題を基に再度、ニーズを再考</h2>
+                    <h2 class="SubTitle">課題を基に再度、ニーズを再考</h2>
                     <img src="img/subscrify/ユーザーインタビューから得たニーズ.svg"  class="ContentsImg">
                 </div>
             </div>
@@ -208,7 +208,7 @@
             <div class="Discription">
                 <h1 class="SectionTitle">DECIDE</h1>
                 <div class="SubDiscription">
-                    <h2　class="SubTitle">ユーザー象の再定義</h2>
+                    <h2 class="SubTitle">ユーザー象の再定義</h2>
                     <P>調査結果・課題・ユーザーニーズを基にSubscrifyの想定ユーザー像の再定義を行いました。
                         実際にインタビューなどを行ってわかったこととしては、
                         サブスクを管理できていないほとんどの方々はお金に対しての意識が低いことでした。
@@ -216,12 +216,12 @@
                         それを踏まえて以下の図のようにペルソナを再定義しました。</P>
                     <img src="img/subscrify/ユーザー像.svg"  class="ContentsImg">
 
-                    <h2　class="SubTitle">ユーザーフロー</h2>
+                    <h2 class="SubTitle">ユーザーフロー</h2>
                     <P>現状のSubscrifyでのユーザーフローを作成して、
                         Subscrifyの全体の体験を通してのユーザーのペインポイントの特定を行いました。</P>
                         <img src="img/subscrify/ユーザーフロー.svg"  class="ContentsImg">
 
-                    <h2　class="SubTitle">機能の確定</h2>
+                    <h2 class="SubTitle">機能の確定</h2>
                     <h3 class="FunctionDescription">インストール~サブスクの入力完了まで</h3>
                     <P>ユーザーフローによるペインポイントの可視化で、契約しているサブスクの入力時と、
                         解約時のタスクの多さからユーザーに負荷がかかることがわかりました。
@@ -242,7 +242,7 @@
             <div class="Discription">
                 <h1 class="SectionTitle">UI DESIGN</h1>
                 <div class="SubDiscription">
-                    <h2　class="SubTitle">最終的なUIデザイン</h2>
+                    <h2 class="SubTitle">最終的なUIデザイン</h2>
                     <h3 class="FunctionDescription">オンボーディング画面</h3>
                     <P>オンボーディングでは、自然な流れでユーザーにサブスクを追加してもらえるようなフローにしました。
                         機能の説明が終了したら、ある程度人気があるサブスクの候補を提示して初回入力のハードルをさげるようにデザイン。</P>
@@ -275,19 +275,19 @@
             <div class="Discription">
                 <h1 class="SectionTitle">学んだこと・今後の課題</h1>
                 <div class="SubDiscription">
-                    <h2　class="SubTitle">学んだこと</h2>
-                    <p>はじめてユーザーリサーチからデザインまで一貫して行い、いかにリアルなユーザーへのアプローチが大切なのかを学びました。
+                    <h2 class="SubTitle">学んだこと</h2>
+                    <p class="thoughts">・はじめてユーザーリサーチからデザインまで一貫して行い、いかにリアルなユーザーへのアプローチが大切なのかを学びました。
                         特に、今回の例でいうと通知機能の搭載は当初はそれほど重要視していませんでしたが、
                         アンケートやインタビューを通してよりリアルな意見や課題を聞くことで搭載する理由が明確になったことが実感できました。
                         今後も、デザイン一つとってもなぜそこにその機能があるかなど
                         論理的にデザインすることも大切に取り組んでいきたいです。</p>
 
-                        <h2　class="SubTitle">今後の課題</h2>
-                        <p>実装的な問題で使用時間の可視化は実現可能化どうかなどがあります。
+                        <h2 class="SubTitle">今後の課題</h2>
+                        <p class="thoughts">・実装的な問題で使用時間の可視化は実現可能化どうかなどがあります。
                             Andoroidであれば、サードパーティー製のスクリーンタイムアプリなどの、
                             使用頻度的なものを可視化するサービスはありますがiOSでは、
                             使用時間などのデータが提供されていないため技術的に可能化どうか検討する必要があると考えています。</p>
-                        <p>現状では、サブスク形式のアプリなどを管理の対象としているが、サブスクサービスは物理的なものも多くなってきている傾向にあると思います。例を出しますと、トレーニングジムなどの多くがサブスク契約だと挙げられますが、これらの使用頻度の可視化などそもそもデータが存在しない物理的な体験などのサービスに対しての使用頻度の可視化が難しいことが考えられます。
+                        <p class="thoughts">・現状では、サブスク形式のアプリなどを管理の対象としているが、サブスクサービスは物理的なものも多くなってきている傾向にあると思います。例を出しますと、トレーニングジムなどの多くがサブスク契約だと挙げられますが、これらの使用頻度の可視化などそもそもデータが存在しない物理的な体験などのサービスに対しての使用頻度の可視化が難しいことが考えられます。
                             非デジタルサービスのサブスクの使用頻度の可視化についてどうするかなど検討する必要があると考えています。</p>
                             
             </div>
