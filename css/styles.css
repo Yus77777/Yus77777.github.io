@@ -93,16 +93,16 @@ main{
     font-family: Futura LT Pro;
 }
 
-.key-frame{
+/* .key-frame{
     margin-top: 218px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 
 
-}
+} */
 
-.key{
+.key{ 
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -441,8 +441,8 @@ li{
         display: none;
     }
 
-    main{
-    }
+    /* main{
+    } */
 
     .main-frame-text{
         font-size: 14px;
