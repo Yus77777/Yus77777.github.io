@@ -37,6 +37,13 @@ iframe{
     font-weight: bold;
 }
 
+/* .speakerdeck-iframe{
+    width: 560px;
+    height: 396px;
+    padding-left: auto;
+    padding-right: auto;
+} */
+
 .koumoku{
     color: #000;
 }
@@ -356,6 +363,8 @@ footer{
 
 .footer-text{
     color: rgba(0, 0, 0, 0.5);
+    font-family: Futura LT Pro;
+    font-weight: bold;
 }
 
 
