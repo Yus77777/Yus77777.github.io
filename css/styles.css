@@ -136,10 +136,42 @@ main{
 .main-frame-text{
     font-size: 32px;
     padding-left: 32px;
-    padding-right: 171px;
+    /* padding-right: 171px; */
     padding-bottom: 32px;
     padding-top: 32px;
 }
+
+.flowing {
+	width: 0;
+	margin: 0;
+	font-size: 32px;
+	font-weight: bold;
+	color: #ffffff;
+	white-space: nowrap;
+	overflow: hidden;
+	animation: flowing-anim 1.8s forwards linear;
+}
+
+.flowing:nth-child(2) {
+	animation-delay: 2s;
+}
+
+.flowing:nth-child(3) {
+	animation-delay: 4s;
+}
+
+@keyframes flowing-anim {
+ 0%{
+     width: 0%;
+   }
+100%{
+     width: 100%;
+   }
+}
+CSS
+
+
+
 
 /* .text-box{
     width: 100%;
@@ -278,7 +310,12 @@ h1{
 }
 
 .tool{
-    margin-bottom: 4px;
+    margin-left: 16px;
+}
+
+.tools{
+    margin-bottom: 8px;
+
 }
 
 
@@ -445,10 +482,22 @@ li{
     } */
 
     .main-frame-text{
-        font-size: 14px;
+        /* font-size: 14px; */
         padding: initial;
         padding: 16px 8px 16px 8px;
     }
+
+    .flowing {
+        width: 0;
+        margin: 0;
+        font-size: 14px;
+        font-weight: bold;
+        color: #ffffff;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: flowing-anim 1.8s forwards linear;
+    }
+
     .section-title{
         font-size: 32px;
     }
